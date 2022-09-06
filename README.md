@@ -20,7 +20,7 @@ To intall either the 16:9 or 16:11 theme:
 
 The theme uses several third-party resources, namely:
 - [Terminus](http://terminus-font.sourceforge.net/) font by Dimitar Toshkov Zhekov (licensed under the SIL Open Font License, Version 1.1) converted to PF2 with `grub-mkfont`;
-- terminal box from the default GRUB2 theme - Starfield by Daniel Tschudi (licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License); the work was also used to create the boot menu and selected item pixmap styles with GIMP;
+- terminal box from the default GRUB2 theme - Starfield by Daniel Tschudi (licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) License); the work was also used to create the boot menu and selected item pixmap styles with GIMP;
 - a [high-resolution scan](https://commons.wikimedia.org/wiki/File:Johan_Christian_Dahl_-_View_of_Dresden_by_Moonlight_-_Google_Art_Project.jpg) by Hans Peter Klut and Elke Estel of *View of Dresden by Moonlight* - a painting by Johan Christian Dahl, as the background image.
 
 License details are provided below.
