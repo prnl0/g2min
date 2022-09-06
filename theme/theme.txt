@@ -7,7 +7,7 @@ terminal-height: "100%"
 terminal-border: "0"
 terminal-box: "terminal_box_*.png"
 terminal-font: "Terminus Regular 12"
-desktop-image: "background.png"
+desktop-image: "background_16-9.png"
 
 + boot_menu {
   left = 10%
@@ -44,7 +44,6 @@ desktop-image: "background.png"
 
 # Info. text at the bottom
 + label {
-#  text = "@KEYMAP_MIDDLE@"
   text = "Press 'e' to edit the selected entry, or 'c' to enter the command-line."
   left = 15%
   top = 93%-10
