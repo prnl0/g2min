@@ -14,7 +14,7 @@ To intall either the 16:9 or 16:11 theme:
 - if desired, change any mention of the font name in `theme.txt` to "Terminus Regular X", where `X` stands for font height (the numbers prepended to 'x' above);
 - set `GRUB_THEME` to `/boot/grub/themes/g2min/theme.txt` in `/etc/default/grub`;
 - if desired, change `GRUB_GFXMODE` within the same file to a resolution obtained through `videoinfo` or `vbeinfo`; additionally, you may want to append `,auto` to provide a fallback resolution in case the one you provide is not supported;
-- regenerate `/boot/grub/grub.cfg` (if on Arch Linux, run as sudo `grub-mkconfig -o /boot/grub/grub.cfg`).
+- regenerate `/boot/grub/grub.cfg` by running `grub-mkconfig -o /boot/grub/grub.cfg`.
 
 # Credits
 
