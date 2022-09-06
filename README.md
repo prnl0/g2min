@@ -23,7 +23,13 @@ The theme uses several third-party resources, namely:
 - terminal box from the default GRUB2 theme - Starfield by Daniel Tschudi (licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) License); the work was also used to create the boot menu and selected item pixmap styles with GIMP;
 - a [high-resolution scan](https://commons.wikimedia.org/wiki/File:Johan_Christian_Dahl_-_View_of_Dresden_by_Moonlight_-_Google_Art_Project.jpg) by Hans Peter Klut and Elke Estel of *View of Dresden by Moonlight* - a painting by Johan Christian Dahl, as the background image.
 
-License details are provided below.
+License details are provided [below](#licenses).
+
+# References
+
+- [Grub2 theme / reference](http://wiki.rosalab.ru/en/index.php/Grub2_theme_/_reference)
+- [Grub2 theme tutorial](http://wiki.rosalab.ru/en/index.php/Grub2_theme_tutorial)
+- [vinceliuice/grub2-themes](https://github.com/vinceliuice/grub2-themes)
 
 # Licenses
 
