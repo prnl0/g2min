@@ -2,9 +2,9 @@
 
 A minimal GRUB2 theme.
 
-<screenshot to be provided>
+The theme provides two backgrounds: one for 16:9 aspect ratios, and another for 16:11, meaning it correctly scales for resolutions that are multiples of said ratios, up to 4960x2790 and 3200x2400, respectively (e.g. 16:9: 1920x1080, 2560x1440, 3840x2160; 16:11: 800x600). As a direct consequence, it is also bundled with fonts of all sizes supported by Terminus (i.e. 6x12, 8x14, 8x16, 10x18, 10x20, 11x22, 12x24, 14x28, and 16x32).
 
-The theme provides two backgrounds: one for 16:9 aspect ratios, and another for 16:11, meaning it correctly scales for resolutions that are multiples of said ratios, up to 4960x2790 and 3200x2400, respectively (e.g. 16:9: 1920x1080, 2560x1440, 3840x2160; 16:11: 800x600; run `videoinfo` or `vbeinfo` in GRUB cmd-line to see which resolutions are supported by your graphics card). As a direct consequence, it is also bundled with fonts of all sizes supported by Terminus (i.e. 6x12, 8x14, 8x16, 10x18, 10x20, 11x22, 12x24, 14x28, and 16x32).
+Run `videoinfo` or `vbeinfo` in the GRUB cmd-line to identify what resolutions your graphics card supports.
 
 # Installation
 
@@ -13,7 +13,7 @@ To intall either the 16:9 or 16:11 theme:
 - extract the files to `/boot/grub/themes/`;
 - if desired, change any mention of the font name in `theme.txt` to "Terminus Regular X", where `X` stands for font height (the numbers prepended to 'x' above);
 - set `GRUB_THEME` to `/boot/grub/themes/g2min/theme.txt` in `/etc/default/grub`;
-- if desired, change `GRUB_GFXMODE` to a resolution obtained through `videoinfo` or `vbeinfo`; additionally, you may want to append `,auto` to provide a fallback resolution in case the one you provide is not supported;
+- if desired, change `GRUB_GFXMODE` within the same file to a resolution obtained through `videoinfo` or `vbeinfo`; additionally, you may want to append `,auto` to provide a fallback resolution in case the one you provide is not supported;
 - regenerate `/boot/grub/grub.cfg` (if on Arch Linux, run as sudo `grub-mkconfig -o /boot/grub/grub.cfg`).
 
 # Credits
