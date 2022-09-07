@@ -6,7 +6,7 @@ A minimal GRUB2 theme.
 
 The theme provides two backgrounds: one for 16:9 aspect ratios, and another for 4:3, meaning it correctly scales for resolutions that are multiples of said ratios, up to 4960x2790 and 3200x2400, respectively (e.g. 16:9: 1920x1080, 2560x1440, 3840x2160; 4:3: 800x600, 1024x768). As a direct consequence, it is also bundled with fonts of all sizes supported by Terminus (i.e. 6x12, 8x14, 8x16, 10x18, 10x20, 11x22, 12x24, 14x28, and 16x32).
 
-Run `videoinfo` or `vbeinfo` in the GRUB cmd-line to identify the resolutions that your graphics card supports through [VBE](https://en.wikipedia.org/wiki/VESA_BIOS_Extensions).
+Run `videoinfo` or `vbeinfo` in the GRUB cmd-line to identify the resolutions that your graphics card supports through [VBE](https://en.wikipedia.org/wiki/VESA_BIOS_Extensions) or [GOP](https://en.wikipedia.org/wiki/UEFI#GOP).
 
 # Installation
 
